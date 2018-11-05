@@ -1,5 +1,5 @@
-f#include <iostream>
-
+#include <iostream>
+//Changed things up
 //TODO #1.1: add a function prototype for fib
 int fib(int);
 //TODO #2.1: add a function prototype for fact
