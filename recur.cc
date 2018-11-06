@@ -9,9 +9,9 @@ int fact(int);
 int main()
 {
 	//TODO: #1.2 call your fib function, print the result
-	fib(5);	
+	std::cout << "Fibonacci: " << fib(6) << std::endl;
 	//TODO: #2.2 call your fact function, print the result
-	fact(5);
+	std::cout << "Factorial: " << fact(4) << std::endl;
 	return 0;
 }
 
@@ -27,9 +27,11 @@ int fib(int n){
 }
 
 //TODO #2.4: add your recursive fact function from class
-int fact(int n){
-	if (n = 0)
+int fact(int n) {
+	if (n == 0) {
 		return 1;
-	else
-		return (n * fact(n-1));
+	}
+	else {
+		return (n * fact(n - 1));
+	}
 }
